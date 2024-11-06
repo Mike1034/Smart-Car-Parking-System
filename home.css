@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align all elements */
+}
+
+h1 {
+    text-align: center;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+    margin: 0 auto; /* Center align label and input */
+    text-align: left; /* Align text in input field to left */
+    width: 80%; /* Set width of input fields */
+    max-width: 300px; /* Set maximum width for larger screens */
+}
+
+button {
+    display: block;
+    margin: 0 auto; /* Center align button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#token {
+    margin-top: 20px;
+    text-align: center; /* Center align token text */
+}
